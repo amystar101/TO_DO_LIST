@@ -4,6 +4,8 @@ function adding(x)
 	var temp=document.createElement('li');
 	var chb=document.createElement('input');
 	chb.type="button";
+	chb.setAttribute("class","btn btn-danger");
+	chb.setAttribute("value","Remove");
 	chb.onclick=function(){
 		// alert("hey");
 		u.removeChild(temp);
