@@ -4,13 +4,13 @@
 	<title>TO DO LIST</title>
 	<script src="to_do.js"></script>
 	<link rel="stylesheet" type="text/css" href="to_do.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
-<body>
-	<h1>To do list</h1>
+<body class="body">
+	<h1 class="heading">To do list</h1>
 	<h3>Add task</h3>
-	<input type="text" name="name" id="item"  placeholder = "task" class="s1">
-	<input type="submit" value="ADD" onclick="adding(document.getElementById('item'))" class="s1"></input>
-	<h3> Press the button to Remove tasks</h3>
+	<input type="text" name="name" id="item"  placeholder = "task" class="s1 form-control">
+	<input type="submit" value="ADD" onclick="adding(document.getElementById('item'))" class="s1 btn btn-success"></input>
 	<h3>List of tasks</h3>
 	<ol id="list">
 	</ol>
